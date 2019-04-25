@@ -15,3 +15,8 @@ def using_pop(array)
   new_string = great_hits_of_the_nineties.pop
   new_string
 end
+
+def pop_with_args(array)
+  chars_in_game_of_thrones = ["Danny T.", "Tyrion Lannister", "Stable Boy", "Sandor Clegane"]
+  chars_arya_killed = chars_in_game_of_thrones[0..-3]
+end 
