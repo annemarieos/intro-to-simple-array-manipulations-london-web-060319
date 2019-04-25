@@ -13,4 +13,5 @@ end
 def using_pop(array)
   great_hits_of_the_nineties = ["Baby One More Time", "Smells Like Teen Spirit", "Missing", "Walking On The Sun", "Hard Knock Life", "Losing My Religion"]
   deleted_string = great_hits_of_the_nineties.pop
-end 
+  deleted_string
+end
