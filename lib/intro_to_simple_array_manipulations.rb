@@ -11,13 +11,9 @@ def using_unshift(array, string)
 end
 
 def using_pop(array)
-  great_hits_of_the_nineties = ["Baby One More Time", "Smells Like Teen Spirit", "Missing", "Walking On The Sun", "Hard Knock Life", "Losing My Religion"]
-  new_string = great_hits_of_the_nineties.pop
-  new_string
+  array.pop
 end
 
 def pop_with_args(array)
-  chars_in_game_of_thrones = ["Danny T.", "Tyrion Lannister", "Stable Boy", "Sandor Clegane"]
-  chars_arya_killed == chars_in_game_of_thrones.pop[2]
-  chars_arya_killed
+  array.pop(2)
 end
